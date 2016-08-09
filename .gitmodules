@@ -1,0 +1,6 @@
+[submodule "pixi.js"]
+	path = pixi.js
+	url = https://github.com/pixijs/pixi.js
+[submodule "Ejecta"]
+	path = Ejecta
+	url = https://github.com/phoboslab/Ejecta.git

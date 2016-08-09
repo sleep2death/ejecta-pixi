@@ -1,0 +1,67 @@
+{
+  "name": "pixi-ejecta",
+  "version": "0.0.1",
+  "description": "The boilerplate & toolset to make [pixi.js] running with !",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "keywords": [
+    "pixi-ejecta",
+    "html5",
+    "pixi",
+    "ejecta",
+    "es6"
+  ],
+  "author": "aspirin2d@outlook.com",
+  "license": "ISC",
+  "dependencies": {
+    "glslify": "^5.1.0",
+    "hammerjs": "^2.0.8"
+  },
+  "xo": {
+    "esnext": true,
+    "env": [
+      "node",
+      "browser"
+    ],
+    "rules": {
+      "curly": 0,
+      "keyword-spacing": 0,
+      "guard-for-in": 0,
+      "xo/filename-case": 0,
+      "max-params": [
+        "error",
+        5
+      ]
+    },
+    "space": 2,
+    "semicolon": false,
+    "globals": [
+      "$",
+      "PIXI",
+      "ejecta"
+    ],
+    "ignores": [
+      ""
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-glslify": "^1.0.2",
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.12.8",
+    "browserify": "^13.0.1",
+    "del": "^2.2.0",
+    "exorcist": "^0.4.0",
+    "glslify-babel": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-buffer": "0.0.2",
+    "gulp-if": "^2.0.1",
+    "gulp-jsdoc3": "^0.3.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "vinyl-source-stream": "^1.1.0",
+    "xo": "^0.16.0"
+  }
+}
