@@ -4,3 +4,6 @@
 [submodule "Ejecta"]
 	path = Ejecta
 	url = https://github.com/phoboslab/Ejecta.git
+[submodule "pixi-compressed-textures"]
+	path = pixi-compressed-textures
+	url = https://github.com/pixijs/pixi-compressed-textures.git
